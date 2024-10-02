@@ -1,0 +1,93 @@
+p{
+    width: 500px;
+    text-align: justify;
+}
+
+.eu{
+    background-color:#7fffd4;
+    width: 800px;
+    border: 500px;
+    border-radius:10px;
+    padding: 20px; left:;       
+    
+    
+}
+body{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3px;
+    text-align:
+}
+
+.user {
+    border: 20px #ccc; 
+    padding: 10px;       
+    float:right;    
+    margin: 0;
+    margin-right:-50px;
+}
+
+.user img {
+    height:auto 130px;
+    float:left; 
+    width: 400px; ; 
+    margin: 0;       
+}
+
+.nome{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    position: absolute;
+    top:270px;
+    left: 570px;
+   
+} 
+
+.cont{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:absolute;
+    top: 370px;
+    left: 630px;
+
+}   
+
+.discord img {
+    border:20px;
+    position: absolute;
+    top:410px;
+    left: 630px;
+    width:30px
+    
+}
+
+.gth img {
+    border:20px;
+    position: absolute;
+    top:410px;
+    left:671px;
+    width: 31px;
+}
+
+@media(max-width:700px)
+{
+    .eu{
+        width: fit-content;
+    }
+    .nome{
+        left: 250px;
+        top: 550px;
+    }
+    
+    .discord img{
+        left:370px;
+        top: 630px;
+
+    }
+    .gth img{
+        left:410px;
+        top:630px
+    }
+    .cont{
+        left: 290px;
+        top:610px;
+    }
+}
